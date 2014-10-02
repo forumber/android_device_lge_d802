@@ -3,6 +3,8 @@
 # Copy firmware files to /system
 #
 
+busybox sleep 10
+
 busybox cp /firmware/image/* /system/etc/firmware/
 busybox cp /persist-lg/firmware/* /system/etc/firmware/
 
