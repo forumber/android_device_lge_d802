@@ -28,9 +28,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_COPY_FILES += \
 	frameworks/native/data/etc/android.hardware.telephony.gsm.xml:system/etc/permissions/android.hardware.telephony.gsm.xml
 
-PRODUCT_COPY_FILES += \
-	device/lge/d802/10copy_firmwares:system/etc/init.d/10copy_firmwares
-
 # NFC packages
 PRODUCT_PACKAGES += \
     nfc_nci.g2 \
